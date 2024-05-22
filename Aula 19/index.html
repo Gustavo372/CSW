@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+
+<body>
+    <script>
+        document.writeln("ola, meu codigo JavaScript! Usando o Document Writeln")
+    </script>
+
+    <h1> Ola mundo, JavaScript</h1>
+    
+    <script>
+        document.writeln("Ola, meu codigo JavaScript! Usando o Document Writeln pela segunda vez")
+    </script>
+
+    <div id="resposta">Resposta</div>
+    <p>teste</p>
+
+    <script>
+            document.getElementById('resposta').innerHTML = "esta é a resposta"
+           var nome =  window.prompt("Esse é meu codigo JavaScript")
+           document.getElementById('resposta').innerHTML = nome
+    </script>
+<br>
+<div style = "border-style: 3px solid;">
+<input id="login type="text" size=60>
+<button onclick="validalogin()">Valida</button>
+</div>
+
+
+<script>
+
+function validalogin(){
+var login=""
+login = document.getElementById("login").value;
+if (login == "Administrador"){
+    window.alert("Seja bem vindo Administrador")
+}
+
+else{
+    window.alert("Nao é administrador")
+}
+
+}
+
+</script>
+
+
+</body>
+</html>
